@@ -8,7 +8,7 @@ import           Control.Exception.Lifted    (SomeException, catch)
 import           Control.Monad.Logger
 import           Data.Aeson
 import qualified Data.ByteString.Lazy        as LBS
-import qualified Data.HashMap.Strict         as HM
+import qualified Data.Aeson.KeyMap         as HM
 import           Database.Redis
 
 import Keenser.Import
